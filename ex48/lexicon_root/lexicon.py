@@ -21,6 +21,6 @@ def tuple_maker(word):
         return ('error', word)
 
 def scan(sentence):
-
+    #sentence = raw_input("insert words: ")
     words = sentence.split()
     return [tuple_maker(word) for word in words]
